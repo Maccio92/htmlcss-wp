@@ -64,13 +64,18 @@ p#banner-secondary-text{
     font-size: 0.7em;
     width: 50%;
 }
-.subsection{
-    background-color:#0085fc;
+
+/* Subsection */
+.subsection{    
     margin-top: 2%;
 }
 .subsection-header{
-    background-color: #b2e6f2;
-    height: 70px;
+    background-color: white;
+    /* height: 70px; */
+}
+.subtitle{
+    font-size: 0.9em;
+    color: lightgray;
 }
 .clearfix::after{
     content: "";
