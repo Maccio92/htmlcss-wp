@@ -19,6 +19,8 @@ header, main, footer {
     margin-top: 2%;
     
 }
+div h1 { font-family: Arial;}
+h2{ font-size: 1em;}
 /* Header */
 #logo{
     max-width: 20%;
@@ -43,9 +45,9 @@ nav a{
     border-radius: 10px;
     
  }
- #overlay{
+ .overlay{
     background-color: rgba( 0, 0, 0, 0.2);
-    height: 350px;
+    height: 100%;
     border-radius: 10px;
 }
 .banner-text{
@@ -73,6 +75,7 @@ p#banner-secondary-text{
     background-color: white;
     /* height: 70px; */
 }
+
 .subtitle{
     font-size: 0.9em;
     color: lightgray;
@@ -82,10 +85,11 @@ p#banner-secondary-text{
     display: table;
     clear: both;
 }
+/* Colonne */
 .col-sx, .col-dx {
     float: left;
     width: 20%;
-    background-color: #b2e6f2;
+    /* background-color: #b2e6f2; */
     height: 400px;
     margin: 2% 0;
 }
@@ -96,7 +100,30 @@ p#banner-secondary-text{
     height:400px ;
     margin: 2%;
 }
+.image-container-sx{
+    max-width: 100%;
+    height: 150px;
+    background-image: url(img/img-1.jpg);
+    background-size: cover; 
+    background-position: center;
 
+}
+.image-container-dx{
+    background-image: url(img/img-3.jpg);
+    border-radius: 10px;
+    background-size: cover; 
+    height: 150px;
+    background-position: center;
+
+}
+.col-text{
+    font-size: 0.7em;
+    color: gray;
+    margin: 5% 0;
+}
+/* .col-sx{
+    background-color: rgba( 0, 0, 0, 0.2);
+    border-radius: 10px;} */
 /* Footer */
 .footer{
     height: 40px;
