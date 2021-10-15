@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{font-size: 100%;
+    font-family: 'Montserrat', sans-serif;}
+body{width: 100%;}
+
+header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    /* background-color: #e579e6; */
+    height: 150px;
+    margin-top: 2%;
+    
+}
+#logo{
+    max-width: 20%;
+}
+nav a{
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 2%;
+    font-size: 1em;    
+}
+
+.menu{line-height: 4em;}
+
+/* Main Section*/
+.section{
+    background-color: #e1d67a;
+    height: 400px;
+    margin: 0 auto ;
+}
+.subsection{
+    background-color:#0085fc;
+    margin-top: 2%;
+}
+.subsection-header{
+    background-color: #b2e6f2;
+    height: 70px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-sx, .col-dx {
+    float: left;
+    width: 20%;
+    background-color: #b2e6f2;
+    height: 400px;
+    margin: 2% 0;
+}
+.col-center{
+    float: left;
+    width: calc(60% - 4%);
+    background-color: #b2e6f2;
+    height:400px ;
+    margin: 2%;
+}
+
+/* Footer */
+.footer{
+    height: 40px;
+    background-color: #8801fe;
+    margin: 1% 0;
+}
