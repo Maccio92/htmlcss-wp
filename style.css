@@ -24,6 +24,10 @@ h2{
     font-size: 1em;
     margin: 10px 0;
 }
+h3{ 
+    font-size: 0.7em;
+font-weight: 300;
+}
 /* Header */
 #logo{
     max-width: 20%;
@@ -103,11 +107,10 @@ p#banner-secondary-text{
 }
 .image-container-sx{
     height: 150px;
-    background: rgba( 0, 0, 0, 0.2);
     background-image: url(img/img-1.jpg);
+    background-color: rgba( 0, 0, 0, 0.2);
     background-size: cover; 
     background-position: center;
-
 }
 .image-container-dx{
     background-image: url(img/img-3.jpg);
@@ -127,12 +130,10 @@ p#banner-secondary-text{
     font-size: 0.7em;
     color: gray;
 }
-/* .col-sx{
-    background-color: rgba( 0, 0, 0, 0.2);
-    border-radius: 10px;} */
 /* Footer */
 .footer{
     height: 40px;
-    background-color: #8801fe;
+    /* background-color: #8801fe; */
     margin: 1% 0;
+    text-align: center;
 }
