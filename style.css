@@ -31,9 +31,10 @@ nav a{
 
 /* Main Section*/
 .section{
-    background-color: #e1d67a;
+    /* background-color: #e1d67a; */
     height: 400px;
     margin: 0 auto ;
+    background-image: url(img/banner.jpg);
 }
 .subsection{
     background-color:#0085fc;
