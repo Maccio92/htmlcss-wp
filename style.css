@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{font-size: 100%;
+html{
+    font-size: 100%;
     font-family: 'Montserrat', sans-serif;}
+
 body{width: 100%;}
 
 header, main, footer {
@@ -17,6 +19,7 @@ header, main, footer {
     margin-top: 2%;
     
 }
+/* Header */
 #logo{
     max-width: 20%;
 }
@@ -32,26 +35,28 @@ nav a{
 /* Main Section*/
 .section{
     /* background-color: #e1d67a; */
-    height: 300px;
+    height: 350px;
     margin: 0 auto ;
     background-image: url(img/banner.jpg);
     background-size: cover;
     background-position: center ;
     border-radius: 10px;
+    
  }
  #overlay{
     background-color: rgba( 0, 0, 0, 0.2);
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
 }
 .banner-text{
-    padding-top: 20%;
-    padding-left: 5%;
+    padding: 220px 0 0 30px
+   
 }
 p#banner-main-text{
     color:white;
     font-size: 1.5em;
     width: 50%;
+ 
 }
 
 p#banner-secondary-text{
