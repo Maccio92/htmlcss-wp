@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;}
+
+body{width: 100%;}
+
+header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    /* background-color: #e579e6; */
+    height: 150px;
+    margin-top: 2%;
+}
+ 
+/* Text  */
+h1 {font-family: Arial;}
+h2{ 
+    font-size: 1em;
+    margin: 10px 0;
+}
+h3{ 
+    font-size: 0.7em;
+    font-weight: 300;
+}
+/* Testi del jumbotron */
+.banner-text{
+    padding: 220px 0 0 30px;
+}
+p#banner-main-text{
+    color:white;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+p#banner-secondary-text{
+    color:white;
+    font-size: 0.7em;
+    width: 50%;
+}
+/* Testo delle colonne */
+.col-text{
+    font-size: 0.7em;
+    color: gray;
+}
+
+
+/* Header */
+#logo{
+    max-width: 20%;
+}
+li a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 1em;    
+}
+li{ 
+    margin-right: 2%;
+    display: inline-block;
+    list-style-type: none;
+}
+.menu{line-height: 4em;}
+
+/* Main Section*/
+.section{
+    /* background-color: #e1d67a; */
+    height: 350px;
+    margin: 0 auto ;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center ;
+    border-radius: 10px;
+    
+ }
+ .overlay{
+    background-color: rgba( 0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Subsection */
+.subsection, .clearfix{margin-top: 4%;}
+.subsection-header{background-color: white;
+}
+.subtitle{
+    font-size: 0.9em;
+    color: lightgray;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Colonne */
+.col {
+    float: left;
+    width: 20%;
+    height: 400px;
+    margin: 2% 0;
+}
+.col-center{
+    float: left;
+    width: calc(60% - 4%);
+    height:400px ;
+    margin: 2%;
+}
+.img-container{
+    height: 150px;
+    background-color: rgba( 0, 0, 0, 0.2);
+    background-size: cover; 
+    background-position: center;
+}
+.image-sx{
+    background-image: url(img/img-1.jpg);
+}
+.image-dx{
+    background-image: url(img/img-3.jpg);
+}
+.image-center{
+    background-image: url(img/banner-2.jpg);
+}
+
+/* Footer */
+.footer{
+    height: 40px;
+    margin: 1% 0;
+    text-align: center;
+}
