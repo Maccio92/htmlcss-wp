@@ -20,7 +20,10 @@ header, main, footer {
     
 }
 div h1 { font-family: Arial;}
-h2{ font-size: 1em;}
+h2{ 
+    font-size: 1em;
+    margin: 10px 0;
+}
 /* Header */
 #logo{
     max-width: 20%;
@@ -68,8 +71,8 @@ p#banner-secondary-text{
 }
 
 /* Subsection */
-.subsection{    
-    margin-top: 2%;
+.subsection, .clearfix{    
+    margin-top: 4%;
 }
 .subsection-header{
     background-color: white;
@@ -89,20 +92,18 @@ p#banner-secondary-text{
 .col-sx, .col-dx {
     float: left;
     width: 20%;
-    /* background-color: #b2e6f2; */
     height: 400px;
     margin: 2% 0;
 }
 .col-center{
     float: left;
     width: calc(60% - 4%);
-    background-color: #b2e6f2;
     height:400px ;
     margin: 2%;
 }
 .image-container-sx{
-    max-width: 100%;
     height: 150px;
+    background: rgba( 0, 0, 0, 0.2);
     background-image: url(img/img-1.jpg);
     background-size: cover; 
     background-position: center;
@@ -114,12 +115,17 @@ p#banner-secondary-text{
     background-size: cover; 
     height: 150px;
     background-position: center;
-
+}
+.image-container-center{
+    background-image: url(img/banner-2.jpg);
+    border-radius: 10px;
+    background-size: cover; 
+    height: 150px;
+    background-position: center;
 }
 .col-text{
     font-size: 0.7em;
     color: gray;
-    margin: 5% 0;
 }
 /* .col-sx{
     background-color: rgba( 0, 0, 0, 0.2);
